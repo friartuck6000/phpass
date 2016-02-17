@@ -1,0 +1,18 @@
+{
+    "name": "friartuck6000/phpass",
+    "description": "A Composer-friendly PHPass port",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kyle Tucker",
+            "email": "kyleatucker@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Phpass\\": "src/"
+        }
+    }
+}
