@@ -12,6 +12,8 @@ use Phpass\PasswordHash;
  */
 class PasswordHashTest extends \PHPUnit_Framework_TestCase
 {
+    // TODO: Test private methods
+
     public function testCheckPassword()
     {
         $hasher = new PasswordHash(8, true);
