@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<phpunit colors="true" verbose="true" bootstrap="./vendor/autoload.php">
+    <php>
+        <includePath>src</includePath>
+    </php>
+    <testsuites>
+        <testsuite name="phpass">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
